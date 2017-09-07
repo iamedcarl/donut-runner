@@ -3,13 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Donut Runner</title>
+    <link  rel='stylesheet' type='text/css' href='./assets/stylesheets/main.css' />
   </head>
   <body>
-    <h1>Donut Runner</h1>
+    <div class='main'>
+      <h1>Donut Runner</h1>
 
-    <canvas id="game" width="800" height="400">
-      Please use Google Chrome
-    </canvas>
+      <div class='game-canvas'>
+        <canvas id="background" width="900" height="450"></canvas>
+        <canvas id="game" width="900" height="450"></canvas>
+      </div>
+    </div>
     <script src="lib/bundle.js"></script>
+    <script src="lib/util/keymaster.js"></script>
   </body>
 </html>
