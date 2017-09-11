@@ -144,3 +144,16 @@ ul > a {
   position: absolute;
   z-index: 10;
 }
+
+.instructions {
+	display: flex;
+	flex-direction: column;
+	color: rgb(237, 216, 30);
+	font-size: 14px;
+	text-shadow: 3px 3px 8px rgb(120, 120, 120);
+	margin: 20px auto;
+}
+
+.instructions > span {
+	margin: 10px auto;
+}
