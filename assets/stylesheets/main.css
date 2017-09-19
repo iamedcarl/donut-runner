@@ -143,6 +143,7 @@ ul > a {
 
 .menu.close {
 	display: none;
+	z-index: -1;
 }
 
 .menu > img {
