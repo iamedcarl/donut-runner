@@ -87,6 +87,7 @@ The image initializes at the [x, y] position on the canvas. When the game starts
 - Scoring
 - Optimize obstacle characters to come out at proper intervals
 - Increase difficulty the longer player survives
+- Add music
 
 #### Legal
 
