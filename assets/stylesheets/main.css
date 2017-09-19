@@ -157,7 +157,7 @@ ul > a {
 	bottom: 80px;
 	cursor: pointer;
 	width: 150px;
-  height: 30px;
+  height: 25px;
 	font-family: Rock Salt;
 	z-index: 100;
 }
@@ -174,7 +174,6 @@ ul > a {
 
 .instructions {
 	display: flex;
-	flex-direction: column;
 	color: rgb(237, 216, 30);
 	font-size: 14px;
 	text-shadow: 3px 3px 8px rgb(120, 120, 120);
@@ -182,5 +181,5 @@ ul > a {
 }
 
 .instructions > span {
-	margin: 10px auto;
+	margin: 10px 20px;
 }
