@@ -148,13 +148,13 @@ ul > a {
 
 .menu > img {
 	width: 900px;
-	height: 100%;
+	height: 450px;
 }
 
 #play-button {
 	position: absolute;
 	align-self: flex-end;
-	bottom: 100px;
+	bottom: 80px;
 	cursor: pointer;
 	width: 150px;
   height: 30px;
