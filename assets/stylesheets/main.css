@@ -135,6 +135,32 @@ ul > a {
 	height: 450px;
 }
 
+.menu {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+}
+
+.menu.close {
+	display: none;
+}
+
+.menu > img {
+	width: 900px;
+	height: 100%;
+}
+
+#play-button {
+	position: absolute;
+	align-self: flex-end;
+	bottom: 100px;
+	cursor: pointer;
+	width: 150px;
+  height: 30px;
+	font-family: Rock Salt;
+	z-index: 100;
+}
+
 #background {
   position: absolute;
 	box-shadow: 0 5px 20px black;
