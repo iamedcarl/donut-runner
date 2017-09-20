@@ -82,7 +82,7 @@ The image initializes at the [x, y] position on the canvas. When the game starts
 
 (Work in progress) A leader board will keep track of high scores. You will be permanently etched into Donut Runner history or strive to beat your friend's high score.
 
-### Work In Progress
+## To-Dos
 
 - Scoring
 - Optimize obstacle characters to come out at proper intervals
