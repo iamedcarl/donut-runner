@@ -133,12 +133,18 @@ ul > a {
   display: flex;
   justify-content: center;
 	height: 450px;
+	top: 0;
+	left: 0;
+	width: 900px;
 }
 
 .menu {
 	position: absolute;
 	display: flex;
 	justify-content: center;
+	z-index: 20;
+	left: 0;
+	top: 0;
 }
 
 .menu.close {
@@ -153,23 +159,27 @@ ul > a {
 
 #play-button {
 	position: absolute;
-	align-self: flex-end;
 	bottom: 80px;
 	cursor: pointer;
 	width: 150px;
   height: 25px;
 	font-family: Rock Salt;
 	z-index: 100;
+	left: 350px;
 }
 
 #background {
   position: absolute;
 	box-shadow: 0 5px 20px black;
+	left: 0;
+	top: 0;
 }
 
 #game {
   position: absolute;
   z-index: 10;
+	left: 0;
+	top: 0;
 }
 
 .instructions {
