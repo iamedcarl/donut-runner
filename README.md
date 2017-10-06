@@ -1,6 +1,6 @@
 # Donut Runner
 
-[Play here!](http://game.edcarladraincem.com)
+[Play here!](https://edcarladraincem.com/projects/donut-runner/)
 
 ![screenshot](/assets/images/screen.png)
 
